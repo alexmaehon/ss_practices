@@ -1,0 +1,19 @@
+
+{
+    "server":["[::0]", "0.0.0.0"],
+    "port_password":{
+         "407":"Long.fun221",
+         "500":"Long.fun221",
+         "600":"jyLong.1989",
+         "1000":"jyLong.1989",
+         "2000":"Long.fun221",
+		 "3000":"Long.fun221",
+		 "4000":"Long.fun221",
+         "5000":"Long.fun221"
+    },
+    "timeout":300,
+    "user":"nobody",
+    "method":"xchacha20-ietf-poly1305",
+    "nameserver":"8.8.8.8",
+    "mode":"tcp_and_udp"
+}

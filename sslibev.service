@@ -1,0 +1,12 @@
+[Unit]
+Description=Shadowsocks-ssserver
+After=network.target
+
+[Service]
+Type=forking
+TimeoutStartSec=3
+ExecStart=/usr/local/bin/shadowsocks-libev-autostart.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
